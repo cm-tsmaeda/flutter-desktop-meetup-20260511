@@ -90,7 +90,7 @@ fvm flutter build macos --release
 
 - 発表ページ: [AI時代のFlutter開発スペシャル](https://classmethod.connpass.com/event/389468/)
 - 発表スライド: [Flutterデスクトップアプリで遊んでみたら意外となんでもできた](https://speakerdeck.com/tasukumaedacm/flutter-desukutotupuapurideyou-ndemitarayi-wai-tonandemodekita)
-- 解説ブログ: TBD
+- 解説ブログ: [【AI時代のFlutter開発スペシャル】「Flutter デスクトップアプリで遊んでみたら意外となんでもできた」で発表しました](https://dev.classmethod.jp/articles/playing-with-flutter-desktop-can-do-anything/)
 
 ## ライセンス
 
