@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build app (macOS Release)",
+      "type": "shell",
+      "command": "fvm",
+      "args": [
+        "flutter", "build", "macos", "--release",
+        "--dart-define=INITIAL_PATH=${workspaceFolder}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "env": {
+          "PATH": "${workspaceFolder}/bin:${env:PATH}"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

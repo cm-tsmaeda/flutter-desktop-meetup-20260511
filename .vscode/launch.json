@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run app (macOS Debug)",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/lib/main.dart",
+      "cwd": "${workspaceFolder}",
+      "toolArgs": [
+        "-d", "macos",
+        "--dart-define=INITIAL_PATH=${workspaceFolder}"
+      ],
+      "env": {
+        "PATH": "${workspaceFolder}/bin:${env:PATH}"
+      }
+    }
+  ]
+}
